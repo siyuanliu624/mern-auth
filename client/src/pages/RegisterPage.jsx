@@ -74,6 +74,7 @@ export default function RegisterPage() {
             {(formik) => {
               return (
                 <div className='container'>
+                  <h1>This is Signup page,modified by siyusn Liu in 2025/2/8.</h1>
                   <Form className='form'>
                     <div className='field'>
                       <label htmlFor='email'>Email</label>
