@@ -34,6 +34,7 @@ export default function App() {
   ) : (
     <React.Fragment>
       <NavBar />
+      <h1>This is my first full-stack mern project.</h1>
       <Switch>
         <Route path='/home' exact component={HomePage} />
         <Route path='/account/confirm/:token' exact component={ConfirmPage} />
